@@ -1,0 +1,30 @@
+.msg {
+  margin: 1rem auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px
+}
+.gametile {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.numberList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+.pickedNumbers {
+  margin: .5rem 1rem;
+}
+
+.pickedNumber {
+  font-size: 50px;
+}

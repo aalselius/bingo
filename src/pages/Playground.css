@@ -1,0 +1,27 @@
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 65px;
+  margin-bottom: 1rem;
+}
+.playground {
+  text-align: center;
+}
+
+.error {
+  color: red;
+  display: block;
+}
+
+.input {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+	margin: .5rem auto;
+  padding: 1rem;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  display: block;
+}

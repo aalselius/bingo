@@ -1,0 +1,27 @@
+.square {
+  padding: 1rem;
+  border: 1px solid black;
+  position: relative;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+}
+
+.square:first-child {
+  font-size: 30px;
+}
+
+.clicked {
+    background-color: red;
+    opacity: .5;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
